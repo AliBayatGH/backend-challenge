@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D396A2A9-03C1-4F31-8399-D24E86E9C672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightScheduleDetector.Domain", "src\Domain\FlightScheduleDetector.Domain.csproj", "{B1B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightScheduleDetector.Infrastructure", "src\Infrastructure\FlightScheduleDetector.Infrastructure.csproj", "{C2B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightScheduleDetector.Application", "src\Application\FlightScheduleDetector.Application.csproj", "{D3B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightScheduleDetector.Presentation", "src\Presentation\FlightScheduleDetector.Presentation.csproj", "{E4B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F496A2A9-03C1-4F31-8399-D24E86E9C673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightScheduleDetector.Tests", "tests\FlightScheduleDetector.Tests\FlightScheduleDetector.Tests.csproj", "{F5B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7E7} = {D396A2A9-03C1-4F31-8399-D24E86E9C672}
+		{C2B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7E8} = {D396A2A9-03C1-4F31-8399-D24E86E9C672}
+		{D3B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7E9} = {D396A2A9-03C1-4F31-8399-D24E86E9C672}
+		{E4B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7EA} = {D396A2A9-03C1-4F31-8399-D24E86E9C672}
+		{F5B01F1E-7F12-4F5C-8D3F-C9F9E4F0B7EB} = {F496A2A9-03C1-4F31-8399-D24E86E9C673}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E684D6A8-98F7-401F-ABF1-CAD42022B860}
+	EndGlobalSection
+EndGlobal
